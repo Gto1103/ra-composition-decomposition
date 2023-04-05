@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header';
+import SearchBlock from './components/SearchBlock/SearchBlock';
+import Articles from './components/Articles/Articles';
+import AdvBanner from './components/AdvBanner/AdvBanner';
+
+/**
+ * Импорт данных для работы компонентов
+ */ 
+
+import header from './data/header';
+import search from './data/search';
+import advert from './data/advert';
+import articles from './data/articles';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className = "App">
+      <Header header={header} className="header">
+      </Header>
+		<SearchBlock search={search} className="search-block">
+		</SearchBlock>
+		<AdvBanner advert={advert} className="adv-banner">
+		</AdvBanner>
+		<Articles articles={articles} classname="articles">
+		</Articles>
     </div>
   );
 }
