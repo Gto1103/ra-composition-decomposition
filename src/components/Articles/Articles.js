@@ -13,8 +13,7 @@ const Articles = (props) => {
 	const { weather, visited, map, tvprogram, ether } = props
 
 /**
- * Но наверное лучше создать каждый виджет отдельно
- *  и поместить в папку Widgets
+ * Свойтва weather, visited, map, tvprogram, ether передаются в каждый виджет
  */
 
 	return (
