@@ -1,6 +1,6 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/6dogl5p4wnkpsgdg?svg=true)](https://ci.appveyor.com/project/Gto1103/ra-composition-decomposition)
 
-[Страница проекта](https://gto1103.github.io/ra-forms-steps/)
+[Страница проекта](https://gto1103.github.io/ra-composition-decomposition/)
 
 # Декомпозиция
 
